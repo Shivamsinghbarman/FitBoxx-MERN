@@ -3,6 +3,7 @@ import { Navigate, Link } from 'react-router-dom';
 import { getMe } from '../utils/API';
 import Auth from "../utils/auth"
 import { formatDate } from '../utils/dateFormat';
+
 import Header from "../components/Header";
 import cardioIcon from "../assets/images/cardio.png"
 import resistanceIcon from "../assets/images/resistance.png"
