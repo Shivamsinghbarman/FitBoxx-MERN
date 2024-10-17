@@ -36,6 +36,7 @@ const ResistanceSchema = new Schema(
   }
 );
 
+
 const Resistance = model("Resistance", ResistanceSchema);
 
 module.exports = Resistance;
