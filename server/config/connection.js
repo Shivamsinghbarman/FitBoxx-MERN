@@ -13,3 +13,4 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/fitness-tracker
 );
 
 module.exports = mongoose.connection;
+
