@@ -15,6 +15,7 @@ export default function Signup() {
     password: "",
   });
 
+  
   // set state for alert
   const [showAlert, setShowAlert] = useState(false);
 
