@@ -33,3 +33,4 @@ router.route("/resistance").post(createResistance);
 router.route("/resistance/:id").get(getResistanceById).delete(deleteResistance);
 
 module.exports = router;
+
