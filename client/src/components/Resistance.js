@@ -3,6 +3,7 @@ import { Navigate } from 'react-router-dom';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import Auth from "../utils/auth";
+
 import { createResistance } from '../utils/API';
 import Header from "./Header";
 import resistanceIcon from "../assets/images/resistance-w.png"
