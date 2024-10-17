@@ -6,3 +6,4 @@ router.use("/user", userRoutes);
 router.use("/exercise", exerciseRoutes);
 
 module.exports = router;
+
