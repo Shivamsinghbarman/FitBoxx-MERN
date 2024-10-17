@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import History from "./pages/History";
 import Exercise from "./pages/Exercise";
 import Login from "./pages/Login";
+
 import Signup from "./pages/Signup";
 import Error from "./pages/Error";
 import SingleExercise from "./components/SingleExercise"
