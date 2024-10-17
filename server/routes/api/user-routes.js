@@ -16,3 +16,4 @@ router.route('/me').get(authMiddleware, getSingleUser);
 
 
 module.exports = router;
+
