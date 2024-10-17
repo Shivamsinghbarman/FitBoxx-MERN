@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Navigate, useNavigate } from 'react-router-dom';
 import { confirmAlert } from "react-confirm-alert";
 import "react-confirm-alert/src/react-confirm-alert.css";
-
 import Auth from '../utils/auth';
 import { getCardioById, getResistanceById, deleteCardio, deleteResistance } from '../utils/API';
 import { formatDate } from '../utils/dateFormat';
